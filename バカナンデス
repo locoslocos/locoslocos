@@ -1,0 +1,9 @@
+mkdir locoslocos.github.com
+cd locoslocos.github.com
+git init
+echo "Hello" > index.html
+git add index.html
+git commit -m "first commit"
+git remote add origin
+git@github.com:locoslocos/locoslocos.github.com.git
+git push -u origin master
